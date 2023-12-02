@@ -11,6 +11,7 @@
 		112306DC2B1A281000F11463 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112306DB2B1A281000F11463 /* BarcodeScannerView.swift */; };
 		112306DE2B1A281100F11463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112306DD2B1A281100F11463 /* Assets.xcassets */; };
 		112306E12B1A281100F11463 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112306E02B1A281100F11463 /* Preview Assets.xcassets */; };
+		112306E92B1BC79500F11463 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112306E82B1BC79500F11463 /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		112306DD2B1A281100F11463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112306E02B1A281100F11463 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		112306E72B1BC73100F11463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		112306E82B1BC79500F11463 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				112306DB2B1A281000F11463 /* BarcodeScannerView.swift */,
 				112306DD2B1A281100F11463 /* Assets.xcassets */,
 				112306DF2B1A281100F11463 /* Preview Content */,
+				112306E82B1BC79500F11463 /* ScannerVC.swift */,
 			);
 			path = "barcode-scanner";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112306E92B1BC79500F11463 /* ScannerVC.swift in Sources */,
 				112306DC2B1A281000F11463 /* BarcodeScannerView.swift in Sources */,
 				112306DA2B1A281000F11463 /* barcode_scannerApp.swift in Sources */,
 			);
