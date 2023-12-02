@@ -19,6 +19,7 @@
 		112306DB2B1A281000F11463 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		112306DD2B1A281100F11463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112306E02B1A281100F11463 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		112306E72B1BC73100F11463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		112306D82B1A281000F11463 /* barcode-scanner */ = {
 			isa = PBXGroup;
 			children = (
+				112306E72B1BC73100F11463 /* Info.plist */,
 				112306D92B1A281000F11463 /* barcode_scannerApp.swift */,
 				112306DB2B1A281000F11463 /* BarcodeScannerView.swift */,
 				112306DD2B1A281100F11463 /* Assets.xcassets */,
@@ -270,6 +272,8 @@
 				DEVELOPMENT_TEAM = 2G896272RH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "barcode-scanner/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to use the camera to scan barcodes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +303,8 @@
 				DEVELOPMENT_TEAM = 2G896272RH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "barcode-scanner/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to use the camera to scan barcodes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
